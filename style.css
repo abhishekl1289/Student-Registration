@@ -1,0 +1,102 @@
+nav{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+h1{
+    
+    text-shadow: #9DF3C4 -2px 0,cyan 2px 0;
+}
+.inp
+{
+    width: 250px;
+    height: 40px;
+    margin:20px;
+}
+#tab
+{
+    /*background-color: blueviolet;
+    padding:150px;
+    border-radius: 30px;
+    border-style: solid;
+    border: none;*/
+    position: relative;
+    display: grid;
+    place-content: centre;
+    border-radius: 42px;
+    background: linear-gradient(315deg, #1c9a7b, #21b793);
+    box-shadow:  -13px -13px 14px #0c4437,
+                 13px 13px 14px #32ffdb;
+
+}
+#show{
+    position: relative;
+    display: flex;
+    
+    
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+table
+{
+    margin-top: 50px;
+    text-align: center;
+    border-color: solid black;
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+#show td
+{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border:1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #9DF3C4;
+}
+#btna td input{
+    margin-top:5%;
+    padding: 10px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    background:linear-gradient(to left,
+    #90A17D ,
+    #829460 
+    );
+    width: 200px;
+    height:40px;
+    color: #000;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+#btna td input:hover{
+    box-shadow: 2px 2px 1px 0.5px black;
+  background:linear-gradient(
+    90deg,
+    #967E76 0%,
+    #D7C0AE 100%
+  );
+}
+
+#show th{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border:1px;
+    border-style:solid;
+    background-color: #32ffdb;
+}
+body{
+    background-image: linear-gradient(to bottom,#1FAB89 ,#62D2A2);
+    width: 100vw;
+    height: 100vh;
+}
